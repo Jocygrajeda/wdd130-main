@@ -39,7 +39,6 @@ body {
     font-family: 'Combo', Tahoma, serif;
     margin: 0;
     padding: 0;
-
 }
 header {
     background-color:rgba(20,30,13, .7);
@@ -72,18 +71,20 @@ footer {
     background-color: #BDA0BC;
     color: black;
     padding: 25px 50px;
+    margin-top: 200px;
 }
 .home-title {
     color: #567568;
     font-family: 'Glass Antiqua', Brush Script MT, Papyrus, cursive;
     font-size: 2em;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 h4 {
     color: black;
 }
 .msg h2 {
     color: #567568;
+    font-family: 'Glass Antiqua', Brush Script MT, Papyrus, cursive;
 }
 .msg {
     color: black;
@@ -121,18 +122,21 @@ margin: 0;
 #logo_link{
     padding-top: 5px;
 }
-footer .social img{
+footer .social img {
     padding-top: 15px;
 }
-.rivers-card{
+.rivers-card {
     margin: 200px 0;
 }
-.camping-card{
+.camping-card {
     margin: 200px 0;
 }
-.rapids-card{
+.rapids-card {
     margin: 200px 0;
 }
-.card-img{
+.card-img {
     border: 10px solid black;
+}
+main section img {
+    box-sizing: border-box;
 }
