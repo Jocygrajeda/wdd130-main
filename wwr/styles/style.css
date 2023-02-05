@@ -54,6 +54,7 @@ nav a:hover {
     text-decoration: none;
     font-size: 18px;
     padding: 15px 30px;
+    margin-top: 50px;
 }
 .book:hover {
     background-color: #567568;
@@ -75,6 +76,7 @@ footer {
     color: #567568;
     font-family: 'Glass Antiqua', Brush Script MT, Papyrus, cursive;
     font-size: 2em;
+    margin-top: 50px;
 }
 h4 {
     color: black;
@@ -120,4 +122,13 @@ margin: 0;
 }
 footer .social img{
     padding-top: 15px;
+}
+.rivers-card{
+    margin: 200px 0;
+}
+.camping-card{
+    margin: 200px 0;
+}
+.rapids-card{
+    margin: 200px 0;
 }
