@@ -34,7 +34,7 @@ main section {
 #background {
     height: 725px;
     background-color: #567568;
-    margin-bottom: 80px;
+    margin-bottom: 90px;
 }
 
 body {
@@ -106,6 +106,7 @@ h4 {
     background-color: #e1e6e1;
     line-height: 1.5em;
     padding: 35px;
+    margin-top: 200px;
 }
 
 footer a{
