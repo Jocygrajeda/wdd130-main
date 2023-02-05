@@ -45,7 +45,7 @@ body {
 
 h2 {
     margin: 0;
-    font-family: 'Glass Antiqua', Brush Script MT, Papyrus, cursive;
+    font-family: 'Glass Antiqua', 'Brush Script MT', 'Papyrus', 'cursive';
 }
 
 header {
@@ -84,10 +84,9 @@ footer {
     margin-top: 200px;
 }
 
-
 .home-title {
     color: #567568;
-    font-family: 'Glass Antiqua', Brush Script MT, Papyrus, cursive;
+    font-family: 'Glass Antiqua', 'Brush Script MT', 'Papyrus', 'cursive';
     font-size: 2em;
     margin-top: 10px;
 }
@@ -98,7 +97,7 @@ h4 {
 
 .msg h2 {
     color: #567568;
-    font-family: 'Glass Antiqua', Brush Script MT, Papyrus, cursive;
+    font-family: 'Glass Antiqua', 'Brush Script MT', 'Papyrus', 'cursive';
 }
 
 .msg {
