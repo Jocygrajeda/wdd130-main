@@ -34,6 +34,7 @@ main section {
 #background {
     height: 725px;
     background-color: #567568;
+    margin-bottom: 80px;
 }
 
 body {
@@ -164,4 +165,7 @@ footer .social img {
 
 main section img {
     box-sizing: border-box;
+}
+.social{
+    margin: 50px;
 }
