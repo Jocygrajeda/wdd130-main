@@ -7,7 +7,7 @@
 }
 
 nav a {
-    font-family: 'Combo', Tahoma, serif, arial;
+    font-family: 'Cambo', Georgia, serif;
     text-align: center;
     color: #fcfbfb;
     text-decoration: none;
@@ -46,11 +46,13 @@ body {
 
 h2 {
     margin: 0;
-    font-family: 'Glass Antiqua', 'Brush Script MT', 'Papyrus', 'cursive';
+    font-family: "Glass Antiqua", "Brush Script MT", cursive;
 }
 
 header {
     background-color:rgba(20,30,13, .7);
+    display: grid;
+    grid-template-columns: 150px auto;
 }
 
 nav a:hover {
@@ -142,6 +144,8 @@ footer p a:hover {
 
 #logo_link{
     padding-top: 5px;
+    justify-self: center;
+    align-self: center;
 }
 
 footer .social img {
@@ -166,4 +170,8 @@ footer .social img {
 
 main section img {
     box-sizing: border-box;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
 }
