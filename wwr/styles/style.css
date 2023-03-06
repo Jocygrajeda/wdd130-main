@@ -271,3 +271,30 @@ nav {
         margin-top: 25px;
     }
 }
+
+/* SECOND PAGE */
+
+.img-girl{
+    width: 450px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#faq-msg h1 {
+    text-align: center    
+
+
+}
+
+#faq-msg h4 {
+    text-align: center;
+}
+
+.second-title {
+    color: #567568;
+    font-family: 'Glass Antiqua', 'Brush Script MT', 'Papyrus', 'cursive';
+    font-size: 5em;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
