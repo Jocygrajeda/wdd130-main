@@ -80,3 +80,44 @@ footer{
     opacity: .4;
     font-weight: 200;
 }
+.container {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+   }
+   
+img {
+     max-width: 100%;
+     max-height:100%;
+}
+   
+.text {
+     font-size: 20px;
+}
+
+
+.facts {
+    border: 2px dashed #444;
+    float: left;
+    position: relative
+}
+.facts img {
+    display: block
+}
+.facts > div {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 14px;
+    background: #000;
+    background: rgba(0,0,0,0.7);
+    color: #fff;
+    overflow: hidden;
+    font: bold 14px Arial, sans-serif;
+    padding: 5px;
+}
+.facts > div {
+    height: auto
+}
