@@ -45,6 +45,7 @@ footer {
     justify-content: space-around;
     align-items: center;
     font-family: 'Quicksand', sans-serif;
+    text-align: center;
 }
 
 .home-title {
