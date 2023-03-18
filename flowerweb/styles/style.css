@@ -20,7 +20,7 @@ nav a {
 
 body {
     background-color: #fcfbfb;
-    font-family: 'Quicksand', sans-serif,;
+    font-family: 'Quicksand', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -129,20 +129,11 @@ nav {
     align-items: center;
     font-family: "Quicksand", sans-serif;
     font-size: 1.5em;
-    margin-top: 400px;
+    margin-top: 300px;
     margin-right: 40px;
 }
 
 .container img{
     max-width: 35%;
     margin-right: 45px;
-}
-
-/*#background{
-    height: 725px;
-    background-color: #B1D2E0;
-    margin-bottom: 125px;
-    grid-column: 1/11;
-    grid-row: 4/9;
-    margin-top: 125px;
 }
