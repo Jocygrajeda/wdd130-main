@@ -139,3 +139,14 @@ nav {
     max-width: 28%;
     margin-right: 45px;
 }
+
+.facts img{
+    height: 50%;
+    margin-top: 250px;
+    width:  305px;
+}
+
+.facts{
+    padding-right: 70px;
+    padding-left: 95px;
+}
