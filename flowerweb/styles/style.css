@@ -150,3 +150,10 @@ nav {
     padding-right: 70px;
     padding-left: 95px;
 }
+
+.social img{
+    height: 50px;
+    width: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
