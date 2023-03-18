@@ -25,6 +25,7 @@ body {
     padding: 0;
 }
 
+
 header {
     background-color: #AABD8C;
     display: grid;
@@ -120,4 +121,28 @@ nav {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
 
+}
+
+.container{
+    width: 75%;
+    display: flex;
+    align-items: center;
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.5em;
+    margin-top: 400px;
+    margin-right: 40px;
+}
+
+.container img{
+    max-width: 35%;
+    margin-right: 45px;
+}
+
+/*#background{
+    height: 725px;
+    background-color: #B1D2E0;
+    margin-bottom: 125px;
+    grid-column: 1/11;
+    grid-row: 4/9;
+    margin-top: 125px;
 }
