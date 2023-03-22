@@ -158,7 +158,13 @@ nav {
     padding-right: 10px;
 }
 
-/*second page*/
+/*second page
+div {
+    max-width: 95%;
+    margin: 0 auto;
+    font-size: 1.125em;
+
+  }*/
 
 #care-msg h1{
     text-align: center;
@@ -176,12 +182,7 @@ nav {
     margin-top: 75px;
 }
 
-div {
-    max-width: 95%;
-    margin: 0 auto;
-    font-size: 1.125em;
 
-  }
 img.right {
     float: left;
     margin: 0 0.5em 0.5em 0;
