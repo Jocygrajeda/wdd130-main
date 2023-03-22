@@ -157,3 +157,28 @@ nav {
     padding-left: 10px;
     padding-right: 10px;
 }
+
+
+/*second page
+
+#care{
+    display: grid;
+    grid-template-columns: auto;
+    margin-top: auto;
+}*/
+
+#care-msg h1{
+    text-align: center;
+    font-size: 55px;
+    font-family: 'Fraunces', serif;
+    color: #F8A76C;
+}
+
+#care-msg h3{
+    text-align: center;
+    font-size: 20px;
+}
+
+.care-title{
+    margin-top: 75px;
+}
