@@ -158,14 +158,7 @@ nav {
     padding-right: 10px;
 }
 
-
-/*second page
-
-#care{
-    display: grid;
-    grid-template-columns: auto;
-    margin-top: auto;
-}*/
+/*second page*/
 
 #care-msg h1{
     text-align: center;
@@ -184,7 +177,7 @@ nav {
 }
 
 div {
-    max-width: 90%;
+    max-width: 95%;
     margin: 0 auto;
     font-size: 1.125em;
 
