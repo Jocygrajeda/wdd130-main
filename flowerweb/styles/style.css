@@ -194,3 +194,9 @@ img.left {
     margin: 0.5em 0 0.5em 0.5em;
     line-height: 0;
   }
+
+#care-main{
+    max-width: 95%;
+    margin: 0 auto;
+    font-size: 1.125em;   
+}
