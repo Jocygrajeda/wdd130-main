@@ -284,3 +284,28 @@ body {font-family: Arial, Helvetica, sans-serif;}
     width: 100%;
   }
 }
+
+/*second day*/
+
+#care-msg h3{
+    color: black;
+    text-align: center;
+    padding-bottom: 120px;
+    font-family: "Quicksand", sans-serif;
+}
+
+#care-main h3{
+    font-family: 'Fraunces', serif;
+    font-weight: bolder;
+}
+
+#care-main p{
+    font-family: "Quicksand", sans-serif;
+}
+
+#care-main{
+    background-color: #FFBBCC;
+    width: 100%;
+    padding: 45px;
+    border-radius: 85px;
+}
