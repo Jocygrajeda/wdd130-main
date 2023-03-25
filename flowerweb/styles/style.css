@@ -7,7 +7,7 @@
 }
 
 nav a {
-    font-family: 'Fraunces', serif;
+    font-family: 'Fraunces', Times, serif;
     text-align: center;
     color: #fcfbfb;
     text-decoration: none;
@@ -20,7 +20,7 @@ nav a {
 
 body {
     background-color: #fcfbfb;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Quicksand', Tahoma, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -45,13 +45,13 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Quicksand', Tahoma, sans-serif;
     text-align: center;
 }
 
 .home-title {
     color: #FFBBCC;
-    font-family: 'Fraunces', serif;
+    font-family: 'Fraunces', Times, serif;
     font-size: 4em;
     margin-top: 10px;
 }
@@ -115,7 +115,7 @@ nav {
     grid-column: 2/3;
     grid-row: 1/2;
     margin-top: 100px;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Quicksand', Tahoma, sans-serif;
 }
 .home-grid {
     display: grid;
@@ -127,7 +127,7 @@ nav {
     width: 100%;
     display: flex;
     align-items: center;
-    font-family: "Quicksand", sans-serif;
+    font-family: "Quicksand", Tahoma, sans-serif;
     font-size: 1.5em;
     margin-top: 300px;
     margin-right: 40px;
@@ -163,7 +163,7 @@ nav {
 #care-msg h1{
     text-align: center;
     font-size: 55px;
-    font-family: 'Fraunces', serif;
+    font-family: 'Fraunces', Times, serif;
     color: #F8A76C;
 }
 
@@ -197,7 +197,7 @@ img.right {
 
 /*how to*/
 
-body {font-family: Arial, Helvetica, sans-serif;}
+body {font-family: "Fraunces", Helvetica, sans-serif;}
 
 #myImg {
   border-radius: 5px;
@@ -291,16 +291,16 @@ body {font-family: Arial, Helvetica, sans-serif;}
     color: black;
     text-align: center;
     padding-bottom: 120px;
-    font-family: "Quicksand", sans-serif;
+    font-family: "Quicksand", Tahoma, sans-serif;
 }
 
 #care-main h3{
-    font-family: 'Fraunces', serif;
+    font-family: 'Fraunces', Times, serif;
     font-weight: bolder;
 }
 
 #care-main p{
-    font-family: "Quicksand", sans-serif;
+    font-family: "Quicksand", Tahoma, sans-serif;
 }
 
 #care-main{
