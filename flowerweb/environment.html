@@ -28,7 +28,80 @@
    <h1>Environment</h1>
    <div class="card-container">
 
+    <div class="slideshow-container">
 
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 4</div>
+        <img src="./images/4.avif" alt="icy flower" width="100%" height="665px">
+        <div class="text">When it comes to picking out the perfect flowers for your space, the environment you create for them is just as important as the flowers themselves. Knowing how to select the right flowers for your particular environment is key to ensuring your blooms stay vibrant and healthy</div>
+      </div>
+      
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 4</div>
+        <img src="./images/1.avif" alt="icy flower" width="100%">
+        <div class="text">ome farmers have a practice of cutting down spent flowerheads and stalks at the end of the growth season. This is commonly done in cold weather regions after the first hard freeze, when flowering ceases and plant sections blacken. It can be done in frost-free climates in late autumn when flower output declines or ceases.
+          In the cold, all flowers require less water. Overwatering is always risky, but it is particularly dangerous in the winter. Make sure your containers don't get too wet, and your plants will appreciate you. Reduce the regularity of irrigation by half, or water only when your plants appear thirsty. Yes, and while you're at it, reduce the fertilizer as well. They don't require it at this time.</div>
+      </div>
+      
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 4</div>
+        <img src="./images/2.avif" alt="windom with flowers underneath" width="100%" height="665px">
+        <div class="text">Most flowers require strong, indirect light, such as that found facing a window. As long as the sun's beams do not immediately strike the plant's foliage, particularly in the summer.
+              Keep the planting soil moist- It is critical that the soil not be too damp or too dry.
+              Check that the plant container has drainage openings in the bottom.
+              Position your plant near a natural or manmade light source.
+              Identify the type of plant you have so that you can properly care for it.</div>
+      </div>
+ 
+      <div class="mySlides fade">
+        <div class="numbertext">4 / 4</div>
+        <img src="./images/5.avif" alt="dry place with flowers" width="100%">
+        <div class="text">Watering is the most essential, and often most difficult, aspect of cultivating thriving potted plants. During the heat, be more generous with water. It's time to water when the top of the pot is dry, this happens approximately 1/2 to 1 inch.  Water completely, until the water comes out of the drainage holes at the bottom of the pot. Fertilizer keeps plants cool by protecting their roots from the hot heat.
+          While potted plants can be readily relocated from the sun to a shady location, ground plants can be more difficult. However, you can use a shade sheet to provide them with additional security. When the weather is particularly hot, even plants that require a lot of sunshine can profit from this.</div>
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+      
+      </div>
+      <br>
+      
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+        <span class="dot" onclick="currentSlide(4)"></span>
+      </div>
+      
+      <script>
+      let slideIndex = 1;
+      showSlides(slideIndex);
+      
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+      
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+      
+      function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}    
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+      }
+      </script>
+<!--
     <div class="card">
         <div class="card-img">
           <img src="./images/4.avif" alt="icy flower">
@@ -83,7 +156,7 @@
     </div>
 
 </main>
-
+-->
     <footer>
         <div class="footer-content">
             <h1>Flowersium</h1>
@@ -103,7 +176,6 @@
             <p>copyright &copy;2023 Flowersium.</p>
         </div>
     </footer>
-
 
 </body>
 </html>
