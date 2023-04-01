@@ -411,12 +411,10 @@ img {vertical-align: middle;}
 h5{
   font-family: 'Fraunces', Times, serif;
   text-align: center;
-  color: black;
-  padding-top: 50px;
-  padding-bottom: 40px;
   font-size: 40px;
-  background-color: #F8A76C;
-  height: 200px;
-  width: 300px;
-
+  color: black;
+  background: #F8A76C;
+  width: 50%;
+  border-radius: 50px;
+  margin: 65px 49px 65px 390px;
  }
